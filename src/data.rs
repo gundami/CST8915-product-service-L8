@@ -5,73 +5,73 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
-            price: 9.99,
-            description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
-            image: "/catnip.jpg".to_string()
+            name: "Apple - AirPods Pro (2nd Generation)".to_string(),
+            price: 249.99,
+            description: "Wireless earbuds with active noise cancellation, transparency mode, and adaptive sound technology for immersive listening.".to_string(),
+            image: "/airpods.jpg".to_string()
         },
         Product {
             id: 2,
-            name: "Salty Sailor's Squeaky Squid".to_string(),
-            price: 6.99,
-            description: "Let your dog set sail with the Salty Sailor's Squeaky Squid. This interactive toy provides hours of fun, featuring multiple squeakers and crinkle tentacles.".to_string(),
-            image: "/squid.jpg".to_string()
+            name: "Atari 2600+".to_string(),
+            price: 299.99,
+            description: "The Atari 2600+ is a modernized version of the classic Atari 2600, featuring HDMI output, high cartridge compatibility, and a retro design for an authentic gaming experience.".to_string(),
+            image: "/atari.jpg".to_string()
         },
         Product {
             id: 3,
-            name: "Mermaid's Mice Trio".to_string(),
-            price: 12.99,
-            description: "Entertain your kitty with the Mermaid's Mice Trio. These adorable plush mice are dressed as mermaids and filled with catnip to captivate their curiosity.".to_string(),
-            image: "/mermaid.jpg".to_string()
+            name: "IBM 5100".to_string(),
+            price: 499.99,
+            description: "The IBM 5100, released in 1975, was one of the first portable computers, featuring a built-in monitor, keyboard, and the ability to run APL and BASIC programming languages.".to_string(),
+            image: "/ibm5100.jpg".to_string()
         },
         Product {
             id: 4,
-            name: "Ocean Explorer's Puzzle Ball".to_string(),
-            price: 11.99,
-            description: "Challenge your pet's problem-solving skills with the Ocean Explorer's Puzzle Ball. This interactive toy features hidden compartments and treats, providing mental stimulation and entertainment.".to_string(),
-            image: "/ocean.jpg".to_string()
+            name: "Insignia™ - 55 Class F30 Series LED 4K UHD Smart Fire TV".to_string(),
+            price: 399.99,
+            description: "A 4K UHD TV with integrated Fire TV functionality, offering direct access to streaming platforms and a voice assistant for hands-free control.".to_string(),
+            image: "/insignia.jpg".to_string()
         },
         Product {
             id: 5,
-            name: "Pirate Parrot Teaser Wand".to_string(),
-            price: 8.99,
-            description: "Engage your cat in a playful pursuit with the Pirate Parrot Teaser Wand. The colorful feathers and jingling bells mimic the mischievous charm of a pirate's parrot.".to_string(),
-            image: "/pirate.jpg".to_string()
+            name: "Apple - 10.9-Inch iPad (10th Generation)".to_string(),
+            price: 329.99,
+            description: "A versatile tablet with 64GB storage and Wi-Fi connectivity, suitable for multimedia, productivity, and creative tasks.".to_string(),
+            image: "/ipad.jpg".to_string()
         },
         Product {
             id: 6,
-            name: "Seafarer's Tug Rope".to_string(),
-            price: 14.99,
-            description: "Tug-of-war meets nautical adventure with the Seafarer's Tug Rope. Made from marine-grade rope, it's perfect for interactive play and promoting dental health in dogs.".to_string(),
-            image: "/tug.jpg".to_string()
+            name: "Apple - 13-inch MacBook Air with M2 Chip".to_string(),
+            price: 999.99,
+            description: "Features a sleek design, 16GB memory, 256GB SSD, and the Apple M2 chip for enhanced performance. Perfect for productivity and portability.".to_string(),
+            image: "/macbook.jpg".to_string()
         },
         Product {
             id: 7,
-            name: "Seashell Snuggle Bed".to_string(),
-            price: 19.99,
-            description: "Give your furry friend a cozy spot to curl up with the Seashell Snuggle Bed. Shaped like a seashell, this plush bed provides comfort and relaxation for cats and small dogs.".to_string(),
-            image: "/bed.jpg".to_string()
+            name: "Boost Mobile - Moto G Play (2024)".to_string(),
+            price: 99.99,
+            description: "A prepaid smartphone with a 90Hz display, 50MP camera, and a long-lasting 5000mAh battery.".to_string(),
+            image: "/moto.jpg".to_string()
         },
         Product {
             id: 8,
-            name: "Nautical Knot Ball".to_string(),
-            price: 7.99,
-            description: "Unleash your dog's inner sailor with the Nautical Knot Ball. Made from sturdy ropes, it's perfect for fetching, tugging, and satisfying their chewing needs.".to_string(),
-            image: "/knot.jpg".to_string()
+            name: "Polaroid Spectra".to_string(),
+            price: 79.99,
+            description: "The Polaroid Spectra is an instant film camera series known for its wider-format photos, advanced features like autofocus and multiple exposure modes, and its sleek, modern design.".to_string(),
+            image: "/polaroid.jpg".to_string()
         },
         Product {
             id: 9,
-            name: "Contoso Claw's Crabby Cat Toy".to_string(),
-            price: 3.99,
-            description: "Watch your cat go crazy for Contoso Claw's Crabby Cat Toy. This crinkly and catnip-filled toy will awaken their hunting instincts and provide endless entertainment.".to_string(),
-            image: "/crabby.jpg".to_string()
+            name: "Samsung - Galaxy A35 5G Clear Case".to_string(),
+            price: 19.99,
+            description: "A transparent case designed for the Galaxy A35, offering protection while showcasing the phone's original color.".to_string(),
+            image: "/samsung.jpg".to_string()
         },
         Product {
             id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
-            image: "/lifejacket.jpg".to_string()
+            name: "TP-Link - Deco X50 Outdoor Wi-Fi 6 Mesh Router".to_string(),
+            price: 299.99,
+            description: "Extends ultra-performance mesh Wi-Fi outdoors, providing up to 2,500 sq. ft. of coverage with waterproof and dustproof design.".to_string(),
+            image: "/tplink.jpg".to_string()
         }
     ]
 }
